@@ -18,18 +18,12 @@ int main(int argc, char *argv[])
 
 
 
-
-
-
-
-
-
 void config(WebServer &server)
 {   
     //需要修改的数据库信息,登录名,密码,库名
     string user = "root";
     string passwd = "980209";
-    string databasename = "webload";
+    string databasename = "username";
 
     Config config;
 

@@ -138,6 +138,7 @@ http_conn_message::HTTP_CODE http_conn_message::parse_content(char *text)
     }
     return NO_REQUEST;
 }
+
 //CGI处理程序
 http_conn_message::HTTP_CODE http_conn_message::do_request(map<string,string>& users,locker& lock,MYSQL* mysql)
 {
